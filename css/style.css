@@ -1,0 +1,91 @@
+	html,body{
+		margin: 0;
+		color:silver;
+
+	}
+	*{
+		list-style: none;
+		text-decoration: none;
+	}
+	*, *::before, *::after {
+	    transition: all .3s ease-in-out;
+	    transition-property: all;
+	    transition-duration: 0.3s;
+	    transition-timing-function: ease-in-out;
+	    transition-delay: initial;
+	}
+
+
+	.menu ul li{
+		display: inline;
+		padding: 20px;
+	}
+	.menu ul {
+		padding: 20px 30px;
+	}
+
+	.menu{
+		background: #36a9c6;
+	}
+
+	.menu ul li a{
+		color:white;
+		font-size: 17px;
+	}
+
+	.menu ul li a:hover{
+		 background: rgba(0,0,0,0.1);
+         padding: 10px 20px;
+	}
+
+	.atribut img{
+		margin-left: 150px;
+	}
+	.atribut p{
+		text-align: center;
+		color:#36a9c6;
+		font-weight: bold;
+		font-size: 23px;
+	}
+
+	/*==============ABOUT PAGE======================*/
+
+	.blok{
+		width: 33%;
+		float: left;	
+	}
+	.blok img{
+		height: 250px;
+	}
+	.atr{
+		margin:2%;
+	}
+
+	.atribut img{
+		height: 250px;
+		margin-top: 5%;
+	}
+	.blok p{
+	    color:#194a56;
+	}
+	.blok p:first-of-type{
+		font-weight: bold;
+		font-size:20px;
+	} 
+
+	/*=========CONTACT PAGE===================*/
+
+	.form p{
+		    text-align: center;
+		    font-size: 27px;
+		    font-weight: bold;
+		    color: #36a9c6;
+  }
+  form{
+  	margin-left: 20%;
+  }
+  input{
+  	width: 60%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+  }
